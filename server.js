@@ -5,7 +5,7 @@ const ObjectId = require("mongodb").ObjectID;
 const bodyParser = require('body-parser');
 
 const port = 8000;
-const CONNECTION_URL = "mongodb+srv://dbUser:Qwe!23@cluster0-zrgnf.mongodb.net/test?retryWrites=true";
+const CONNECTION_URL = "mongodb://localhost:27017/";
 const DATABASE_NAME = "symptomchecker";
 const app = express();
 
