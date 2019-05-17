@@ -1,0 +1,20 @@
+{
+  "name": "symptom-checker-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "tomer953",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "mongodb": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
